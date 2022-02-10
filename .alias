@@ -1,0 +1,31 @@
+
+# +---------------+
+# | Shell aliases |
+# +---------------+
+
+# For sudoing aliased commands:
+alias sudo='sudo '
+
+# Misc aliases
+alias sl="ls "
+alias open="xdg-open "
+alias copy="xclip -selection clipboard "
+alias grep="grep --color=never "
+alias sctl='systemctl'
+alias vm='virt-manager >> /dev/null 2>> /dev/null &'
+alias vbox='virtualbox >> /dev/null 2>> /dev/null &'
+alias pcmanfm='pcmanfm . > /dev/null 2>&1 &'
+#alias docker="podman "
+
+# Editor
+alias vi='vim' 
+
+# Wireless
+#alias startblue='sudo systemctl start bluetooth'
+#alias stopblue='sudo systemctl stop bluetooth'
+
+## Python venvs
+### Common
+alias actenv="source ./env/bin/activate "
+alias deac='deactivate'
+alias deacc='conda deactivate'
